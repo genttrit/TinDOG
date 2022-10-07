@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#title {
+  font-size: 1.2rem;
+  padding-bottom: 3%;
+  text-align: left;
+}
+
+.heading-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 0 15% 7%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: 'Ubuntu';
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.iphone-img {
+  width: 50%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 18%;
+}
+
+@media (max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+}
+
+#features {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.fontawsome-features {
+  color: #ef8172;
+  font-size: 70px;
+}
+
+.h3-features {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.p-features {
+  color: #8F8F8F;
+  font-size: 1.1rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.fontawsome-features:hover {
+  color: #FF4C68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  font-family: 'Montserrat';
+}
+
+.testimonials-h2 {
+  font-weight: 700;
+  padding: 0 15% 0 15%;
+}
+
+.testimonials-em {
+  font-weight: 700;
+}
+
+.testimonial-img {
+  margin-top: 30px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  padding: 0 3% 7% 3%;
+  background-color: #ef8172;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15% 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+.h3-pricing, .h2-pricing {
+  font-weight: 700;
+}
+
+#cta {
+  padding: 3% 15%;
+}
+
+.h3-cta {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+#footer {
+  padding: 3% 15%;
+  font-size: 1.1rem;
+}
+
+.social-icon {
+  margin-left: 20px;
+  color: grey;
+}
+
+.copyright {
+  color: grey;
+}
